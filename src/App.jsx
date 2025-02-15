@@ -12,7 +12,7 @@ function App() {
     <>
     
     <ToastContainer />
-    <BrowserRouter>
+    <BrowserRouter basename='/CostKeeper'>
       <Routes>
          <Route path='/' element={<Signup/>} />
          <Route path='/dashboard' element={<> <Dashboard/></> } />
