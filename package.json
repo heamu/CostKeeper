@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/charts": "^2.2.6",
@@ -39,7 +41,6 @@
     "vite": "^6.0.5"
   },
   "homepage": "https://heamu.github.io/CostKeeper",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+  
 
 }
